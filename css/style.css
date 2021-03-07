@@ -58,6 +58,11 @@ h1 {
   color: #32495B;
 }
 
+h3{
+  font-size: 1.6em;
+  color: #32495B;
+}
+
 p {
   font-size: 1em;
   font-weight: 600;
@@ -188,17 +193,30 @@ header .jumbotron {
 }
 
 /* MAIN */
-
-/* FIRST-INFORMATION */
 main {
   background-color: #F4F9FD;
 }
 
+/* FIRST-INFORMATION */
 main .first-information {
   height: 400px;
   width: 100%;
   text-align: center;
-  background-color: red;
+}
+
+.first-information .cube{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.cube-text h3{
+  padding-bottom: 30px;
+}
+
+.cube img{
+  height: 150px;
+  margin-top: 50px;
 }
 
 /* FEATURES */
