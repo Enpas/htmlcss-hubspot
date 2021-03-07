@@ -11,6 +11,11 @@
   clear: both;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1200px;
+}
+
 .center {
   position: absolute;
   top: 50%;
@@ -42,14 +47,31 @@
   text-align: right;
 }
 
-li a {
+/* TEXT-SETTINGS */
+a {
   text-decoration: none;
   color: #32495B;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  min-width: 1200px;
+h1 {
+  font-size: 2.7em;
+  color: #32495B;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 600;
+  color: #32495B;
+}
+
+.line-h{
+  line-height: 30px;
+}
+
+.small-text{
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #32495B;
 }
 
 /* CONTAINERS */
@@ -74,6 +96,10 @@ body {
 
 .btn-large {
   padding: 20px;
+}
+
+.btn-jumb{
+  padding: 22px;
 }
 
 #login {
@@ -129,17 +155,36 @@ nav.menu .logo {
 /* JUMB */
 header .jumbotron {
   position: relative;
-  height: 600px;
-  background-color: green;
+  height: 598px;
+  background-image: url(../img/jumbotron.png);
+  background-color: rgb(255, 244, 239);
+  background-position: 100% 100%;
+  background-size: 1230px;
+  background-repeat: no-repeat;
 }
 
 .jumbotron::after {
   content: '';
   position: absolute;
-  bottom: 0;
-  height: 80px;
+  bottom: 0px;
+  height: 68px;
   width: 100%;
-  background-color: #B0EBE4;
+  background-color: #AFEBE4;
+  border-top: 3px solid #566a79;
+  border-bottom: 3px solid #566a79;
+}
+
+.jumb-text h1{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.jumb-text p{
+  padding-bottom: 50px;
+}
+
+.jumb-text .small-text{
+  padding-top: 60px;
 }
 
 /* MAIN */
