@@ -441,8 +441,8 @@ main .growing {
   padding-top: 50px;
 }
 
-main .growing .growing-img img {
-  width: 50%;
+main .growing img {
+  height: 400px;
 }
 
 main .growing h2 {
