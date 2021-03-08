@@ -133,6 +133,22 @@ p {
   padding: 22px;
 }
 
+.btn.white-btn {
+  margin-bottom: 15px;
+  width: 70%;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  background-color: #fff;
+  list-style: none;
+  cursor: pointer;
+}
+
+.btn.white-btn a {
+  color: #32495B;
+  font-weight: 600;
+}
+
 #login {
   background-color: #FAFCFE;
   color: #FE7759;
@@ -295,22 +311,35 @@ main .features {
   font-weight: 600;
 }
 
+.main-feature p {
+  margin-bottom: 15px;
+}
+
 .features .main-feature .right-side .des-medium {
   min-height: 50px;
   margin-bottom: 30px;
 }
 
 .features h4 {
+  position: relative;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 30px;
   color: #32495B;
 }
 
+.line {
+  position: absolute;
+  left: 48%;
+  bottom: -392px;
+  width: 550px;
+  border-top: 2px solid #899398;
+}
+
 
 .features .marketing, .features .sales, .features .service {
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #FFF;
   min-height: 660px;
   margin: 50px 0;
   padding: 0 55px;
@@ -344,7 +373,7 @@ main .features {
 
 /* SECOND-INFORMATION */
 main .second-information {
-  height: 600px;
+  height: 650px;
   background-image: linear-gradient(90deg, #00AAB8, #02BBA8);
   text-align: center;
   padding-top: 50px;
@@ -409,11 +438,105 @@ vertical-align: middle;
 /* GROWING */
 main .growing {
   height: 600px;
-  background-color: yellow;
+  padding-top: 50px;
 }
+
+main .growing .growing-img img {
+  width: 50%;
+}
+
+main .growing h2 {
+  font-size: 2.5em;
+  margin: 0;
+  text-transform: capitalize;
+  color: #32495B;
+}
+
+main .growing p {
+  padding-top: 50px;
+  color: #32495B;
+}
+
 
 /* FOOTER */
 footer {
-  min-height: 820px;
+  min-height: 620px;
   background-color: #32495B;
+}
+
+.lists {
+  margin-bottom: 80px;
+}
+
+footer li a {
+  color:#FFF;
+}
+
+.first {
+  text-transform: capitalize;
+  padding-right: 50px;
+}
+
+.first h3 {
+  color: #fff;
+  font-size: 1em;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.first li {
+  padding-bottom: 10px;
+  line-height: 200%;
+  font-size: 0.8em;
+}
+
+.first li.socials {
+  list-style: none;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+li.socials i {
+  padding-right: 27px;
+}
+
+.language {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+}
+
+.language ul {
+  left: 50%;
+  transform: translateX(26%);
+}
+
+.language li {
+  line-height: 50px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.credits {
+  border-top: 1px solid #fff;
+  padding-top: 30px;
+}
+
+.credits p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.privacy {
+  position: relative;
+}
+
+.pri-li {
+  position: absolute;
+  right: 0;
+}
+
+.privacy li {
+  display: inline-block;
+  padding-right: 15px;
 }
