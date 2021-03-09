@@ -247,7 +247,7 @@ main {
 
 /* FIRST-INFORMATION */
 main .first-information {
-  height: 400px;
+  height: 380px;
   width: 100%;
   text-align: center;
 }
@@ -269,7 +269,7 @@ main .first-information {
 
 /* FEATURES */
 main .features {
-  height: 1100px;
+  height: 1125px;
 }
 
 .features .main-feature {
@@ -325,24 +325,14 @@ main .features {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #32495B;
 }
-
-.line {
-  position: absolute;
-  left: 48%;
-  bottom: -392px;
-  width: 550px;
-  border-top: 2px solid #899398;
-}
-
 
 .features .marketing, .features .sales, .features .service {
   text-align: center;
   background-color: #FFF;
-  min-height: 660px;
+  min-height: 670px;
   margin: 50px 0;
-  padding: 0 55px;
+  padding: 0 4%;
 }
 
 .features .sales {
@@ -357,17 +347,25 @@ main .features {
 
 .features .des-medium {
   position: relative;
-  min-height: 180px;
+  min-height: 165px;
 }
 
-.features .des-medium::after {
+.features .line-p::after{
   content: '';
   position: absolute;
-  bottom: -25px;
+  bottom: 45%;
+  left: 45%;
+  width: 50%;
+  border-bottom: 2px solid #899398;
+}
+
+.features .line-f::before {
+  content: '';
+  position: absolute;
+  bottom: 60px;
   left: 0;
   width: 100%;
-  height: 2px;
-  background-color: #899398;
+  border-bottom: 2px solid #899398;
 }
 
 
@@ -383,6 +381,11 @@ main .second-information {
   height: 150px;
   min-height: 150px;
   padding: 15px 30px;
+}
+
+.second-information span {
+  font-weight: 500;
+  font-size: 0.8em;
 }
 
 .second-information p{
@@ -425,7 +428,7 @@ main .countries .countries-text h2 {
 }
 
 main .countries .menu {
-  width: 50%;
+  width: 500px;
   line-height: 60px;
 }
 
@@ -539,4 +542,16 @@ li.socials i {
 .privacy li {
   display: inline-block;
   padding-right: 15px;
+}
+
+footer a:hover {
+  color: #2acfe9;
+}
+
+.white-btn a:hover {
+  color: #2acfe9;
+}
+
+.white-btn:hover {
+  background-color: #d8d8d8;
 }
